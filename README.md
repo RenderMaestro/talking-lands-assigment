@@ -29,6 +29,25 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+# React Leaflet Maps
+
+This project demonstrates the use of **React Leaflet** to create interactive maps with custom markers and polygons, leveraging **GeoJSON** data and OpenStreetMap tiles.
+
+## Features
+- **Map with Custom Markers**: Displays geographical points with custom markers. Each marker has a popup with additional information.
+- **Map with GeoJSON Polygons**: Displays US states as polygons with color coding based on population density. The polygons are interactive and show tooltips with state names and density.
+
+## Installation
+
+### 1. Clone the repository
+
+Clone this repository to your local machine:
+
+```bash
+git clone https://github.com/rendermasetro/talking-lands-assignment.git
+cd react-leaflet-maps
+
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
