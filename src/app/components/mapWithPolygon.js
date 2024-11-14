@@ -2,7 +2,6 @@ import React from "react";
 import { MapContainer, TileLayer, GeoJSON } from "react-leaflet";
 import usStatesData from "../data/us-geo.json";
 
-
 const getColor = (density) => {
   return density > 200
     ? "#800026"
@@ -29,7 +28,6 @@ function MapWithPolygon() {
     }
 
     console.log(feature.properties, "FP");
-
 
     layer.bindTooltip(`<strong>${NAME}</strong><br/>${feature.properties.density.toFixed(2)} people per square mile`, {
       permanent: false,
